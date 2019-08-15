@@ -1,6 +1,6 @@
 package br.senac.rn.banco.model;
 
-public class ContaPoupancaModel extends ContaModel {
+public class ContaPoupanca extends Conta {
 
     private final Double RENDIMENTO = 0.005;
 

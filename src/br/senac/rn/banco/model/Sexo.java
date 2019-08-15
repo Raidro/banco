@@ -1,6 +1,6 @@
 package br.senac.rn.banco.model;
 
-public enum SexoModel {
+public enum Sexo {
 
     MASCULINO, FEMININO
 }

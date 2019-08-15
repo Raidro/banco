@@ -1,19 +1,30 @@
 package br.senac.rn.banco.model;
 
 
-public abstract class ContaModel {
+public abstract class Conta {
 
     private static Integer id = 0;
 
     protected String agencia;
     protected String numero;
     protected Double saldo = 0.0;
-    protected PessoaModel titular;
+    protected Pessoa titular;
 
-    public ContaModel() {
+//    public ContaModel() {
+//
+//        id++;//id = id + 1;
+//        numero = id.toString();
+//
+//    }
 
+    public Conta(String agencia, String numero, Pessoa titular) {
+
+        this.agencia = agencia;
+        this.numero = numero;
+        this.titular = titular;
         id++;//id = id + 1;
-        numero = id.toString();
+        this.numero = id.toString();
+
 
     }
 
@@ -29,7 +40,7 @@ public abstract class ContaModel {
         return saldo;
     }
 
-    public PessoaModel getTitular() {
+    public Pessoa getTitular() {
         return titular;
     }
 
@@ -41,7 +52,7 @@ public abstract class ContaModel {
         this.numero = numero;
     }*/
 
-    public void setTitular(PessoaModel titular) {
+    public void setTitular(Pessoa titular) {
         this.titular = titular;
     }
 
@@ -56,7 +67,7 @@ public abstract class ContaModel {
 
     public abstract Boolean saca(Double valor);
 
-    public Boolean transfere(ContaModel contaDestino, Double valor) {
+    public Boolean transfere(Conta contaDestino, Double valor) {
         if (saca(valor)) { // o saca ele faz o saque e devolve
             //saca(valor);
             contaDestino.deposita(valor);

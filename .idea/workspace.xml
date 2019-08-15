@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfde7ca-c35f-4ec4-be16-e968544ecc9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaCorrenteModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaPoupancaModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaCorrenteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaPoupancaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/PessoaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/SexoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/Sexo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/repository/BancoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/repository/ContaRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

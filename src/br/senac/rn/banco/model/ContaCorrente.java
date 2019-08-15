@@ -1,6 +1,6 @@
 package br.senac.rn.banco.model;
 
-public class ContaCorrenteModel extends ContaModel {
+public class ContaCorrente extends Conta {
 
     private final Double TAXA = 1.0; // está maiuscula ´pq é constante
 

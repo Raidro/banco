@@ -1,11 +1,18 @@
 package br.senac.rn.banco.model;
 
-public class PessoaModel {
+public class Pessoa {
 
     private String nome;
     private String cpf;
-    private SexoModel sexo;
+    private Sexo sexo;
     private String fone;
+
+    public Pessoa(String nome, String cpf, Sexo sexo, String fone) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.sexo = sexo;
+        this.fone = fone;
+    }
 
     public String getNome() {
         return nome;
@@ -23,11 +30,11 @@ public class PessoaModel {
         this.cpf = cpf;
     }
 
-    public SexoModel getSexo() {
+    public Sexo getSexo() {
         return sexo;
     }
 
-    public void setSexo(SexoModel sexo) {
+    public void setSexo(Sexo sexo) {
         this.sexo = sexo;
     }
 
