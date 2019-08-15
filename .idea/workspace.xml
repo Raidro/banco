@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfde7ca-c35f-4ec4-be16-e968544ecc9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/SexoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaCorrenteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaPoupancaModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/BancoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/PessoaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaModel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>

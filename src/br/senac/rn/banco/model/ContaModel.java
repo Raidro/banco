@@ -1,7 +1,6 @@
 package br.senac.rn.banco.model;
 
 
-
 public abstract class ContaModel {
 
     private static Integer id = 0;
