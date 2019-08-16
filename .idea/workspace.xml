@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9cfde7ca-c35f-4ec4-be16-e968544ecc9f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco-v1/br/senac/rn/banco/TestaBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-v1/br/senac/rn/banco/TestaBanco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco-v1/br/senac/rn/banco/model/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-v1/br/senac/rn/banco/model/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco-v1/br/senac/rn/banco/model/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-v1/br/senac/rn/banco/model/ContaPoupanca.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/TestaBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/TestaBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaPoupanca.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +46,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestaBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.senac.rn.banco.TestaBanco" />
+      <module name="banco-v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.senac.rn.banco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestaBanco" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
