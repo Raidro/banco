@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/TestaBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/TestaBanco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/repository/ContaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/repository/ContaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/banco/model/ContaPoupanca.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

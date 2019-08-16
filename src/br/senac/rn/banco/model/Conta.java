@@ -10,20 +10,20 @@ public abstract class Conta {
     protected Double saldo = 0.0;
     protected Pessoa titular;
 
-//    public Conta() {
-//
-//        id++;//id = id + 1;
-//        numero = id.toString();
-//
-//    }
+    public Conta() {
 
-    public Conta(String agencia, String numero, Pessoa titular) {
-
-        this.agencia = agencia;
-        this.numero = numero;
-        this.titular = titular;
+        id++;//id = id + 1;
+        numero = id.toString();
 
     }
+
+//    public Conta(String agencia, String numero, Pessoa titular) {
+//
+//        this.agencia = agencia;
+//        this.numero = numero;
+//        this.titular = titular;
+//
+//    }
 
     public String getAgencia() {
         return agencia;
