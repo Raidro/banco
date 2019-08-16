@@ -10,7 +10,7 @@ public abstract class Conta {
     protected Double saldo = 0.0;
     protected Pessoa titular;
 
-//    public ContaModel() {
+//    public Conta() {
 //
 //        id++;//id = id + 1;
 //        numero = id.toString();
@@ -22,9 +22,6 @@ public abstract class Conta {
         this.agencia = agencia;
         this.numero = numero;
         this.titular = titular;
-        id++;//id = id + 1;
-        this.numero = id.toString();
-
 
     }
 
